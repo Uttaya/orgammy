@@ -22,6 +22,12 @@ namespace orgammy
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/facebook-authen").Include(
+                      "~/Scripts/facebook-authen.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/facebook-sdk").Include(
+                      "~/Scripts/facebook-sdk.js"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
